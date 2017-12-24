@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+	
+	<link rel="stylesheet" href="csspage.css" />
+
+	<!--googlemap-->
+	<style>
+       #map {
+        height: 450px;
+        width: 95%;
+       }
+    </style>
+
+    <script>
+      	function initMap() {
+	        var uluru = {lat: 17.817578, lng: 102.737291};
+	        var map = new google.maps.Map(document.getElementById('map'), {
+	          	zoom: 14,
+	          	center: uluru
+	        });
+	        var marker = new google.maps.Marker({
+	          	position: uluru,
+	          	map: map
+	        });
+      	}
+    </script>
+
+</head>
+<body class="pageBG">
+	<div class="pageDefault">
+		<img src = "รูปร้าน/ปก2.png" style="display:block;width:100%;height:auto; ">	
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		  	<div class="collapse navbar-collapse" id="navbarNavDropdown">
+		    	<ul class="navbar-nav">
+		      		<li class="nav-item" style="width: 130px">
+		        		<a class="nav-link" href="index.html"><b>หน้าแรก</b> <span class="sr-only">(current)</span></a>
+		      		</li>
+		      		<li class="nav-item dropdown" style="width: 190px">
+		        		<a class="nav-link dropdown-toggle" href="product.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b>สินค้า</b></a>
+		        		<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+		          			<a class="dropdown-item" href="Lolita.html">ชุดโลลิต้า</a>
+		        		</div>
+		      		</li>
+		      		<li class="nav-item" style="width: 190px">
+		        		<a class="nav-link" href="Order.html"><b>วิธีสั่งซื้อสินค้า</b></a>
+		      		</li>
+		      		<li class="nav-item" style="width: 190px">
+		        		<a class="nav-link" href="Payment.html"><b>วิธีชำระเงิน</b></a>
+		      		</li>
+		      		<li class="nav-item" style="width: 190px">
+		        		<a class="nav-link" href="Reviw.html"><b>รีวิวน่ารักๆ</b></a>
+		      		</li>
+		      		<li class="nav-item  active" style="width: 140px">
+		        		<a class="nav-link"  href="Contact.html" ><b>ติดต่อเรา</b></a>
+		      		</li>
+		   	   		
+		    	</ul>
+		  	</div>
+		</nav>
+		 <img src = "รูปร้าน/ต่าย1.png" style="width:auto;height:200px;margin-left: 410px; margin-top: 40px">
+		 <p><center><font color ="#FF3300"><b><font  size="5"><b>ร้านค้าเสื้อผ้าออนไลน์ Lolita <center></font></p></b></font></b>
+		 <p><center>358/2 หมู่ 7 ต.หนองกอมเกาะ อ.เมืองหนองคาย จ.หนองคาย</center>
+		 <p><center>สนใจติดต่อที่ 094-478-1316/094-049-9929 (ปาย)</center>
+		 <p><center>line ID : painatrada </center>
+		 <img src = "รูปร้าน/line.jpg" style="width:auto;height:200px;margin-left: 5px; margin-top: 40px">
+		 <p><center>v</center>
+		 <p><center>v</center>
+		 <p><center>v</center>
+		<div id="map" style="margin-left: 20px; margin-top: 40px;"></div>
+	    <script async defer
+	    	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwlGJnsMn-_APIJN0pg1wBfmgRLxrvvws&callback=initMap">
+	    </script>
+	    <p><center>ติดต่อทาง LINE <font color ="#FF0033"><b>(ID: painatrada)</b></font> ช่วง 9.00น.-18.00น. * นอกเวลาทิ้งข้อความไว้ ทางร้านจะติดต่อกลับในเวลาทำการ </center></p>
+	    <div style="height: 200px;"></div>
+	</div>
+</body>
+</html>

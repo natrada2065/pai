@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Payment</title>
+	<meta charset="utf-8">
+	<meta name = "viewport" content="width = device-width,initial-scale=1.0"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+	<script src="https://smtpjs.com/v2/smtp.js"></script>
+	<link rel="stylesheet" href="csspage.css" />
+</head>
+<body class="pageBG">
+	<div class="pageDefault">
+		<img src = "รูปร้าน/ปก2.png" style="display:block;width:100%;height:auto; ">	
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		  	<div class="collapse navbar-collapse" id="navbarNavDropdown">
+		    	<ul class="navbar-nav">
+		      		<li class="nav-item active" style="width: 130px">
+		        		<a class="nav-link" href="index.html"><b>หน้าแรก</b> <span class="sr-only">(current)</span></a>
+		      		</li>
+		      		<li class="nav-item dropdown" style="width: 190px">
+		        		<a class="nav-link dropdown-toggle" href="product.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b>สินค้า</b></a>
+		        		<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+		          			<a class="dropdown-item" href="Lolita.html">ชุดโลลิต้า</a>
+		        		</div>
+		      		</li>
+		      		<li class="nav-item" style="width: 190px">
+		        		<a class="nav-link" href="Order.html"><b>วิธีสั่งซื้อสินค้า</b></a>
+		      		</li>
+		      		<li class="nav-item" style="width: 190px">
+		        		<a class="nav-link" href="Payment.html"><b>วิธีชำระเงิน</b></a>
+		      		</li>
+		      		<li class="nav-item" style="width: 190px">
+		        		<a class="nav-link" href="Reviw.html"><b>รีวิวน่ารักๆ</b></a>
+		      		</li>
+		      		<li class="nav-item" style="width: 140px">
+		        		<a class="nav-link"  href="Contact.html" ><b>ติดต่อเรา</b></a>
+		      		</li>
+		   	   	</ul>
+		  	</div>
+		</nav>
+			<div class="alert alert-warning" role="alert">
+  				<font  size="5"><b><font color ="#FF6666"><b>ชำระเงินผ่านธนาคาร</b></font></b>
+			</div>
+			<center><img src="รูปร้าน/ธนาคาร.png" style=""></center>
+			<ul>
+				<font  size="5" color ="#CC3333"><b><u>***หลังจากที่ลูกค้าได้ทำการสั่งซื้อเรียบร้อย ท่านสามารถชำระเงินค่าสินค้าได้เลยค่ะ***</u></b></font>
+				<li><font  size="3">ติดต่อทาง Line id :</font><font color = "#00CC00">painatrada:</font><font size ="3">หากต้องกาเช็คสต็อกก่อนโอนเงิน</font></li>
+				<li><font  size="3">เวลาทำงานตอบไลน์ 09.00-18.00 น.</font></li>
+				<li><font  size="3">หลังจากท่านโอนเงินเพื่อชำระสินค้าแล้ว </font><font color ="#FF0000">**สำคัญมากค่ะ**</font><font  size="3">รีบแจ้งโอนค่าสินค้าให้ทางร้านทราบ เพื่อทางร้านจะรีบดำเนินการแพ็คของ</font></li>
+				<li><font  size="3">เก็บสลิปใบโอนเงิน หรือหลักฐานการโอนเงิน ไว้จนกว่าจะได้รัยสินค้า แจ้งเลขที่ออเดอร์ เวลาโอนเงิน กี่โมง/นาที ให้ตรงนะคะ เนื่องจากในแต่ละวันมียอดชำระเยอะมาก</font></li>
+				<li><font  size="3">แจ้งการชำระเงินผ่านเว็บไซต์ หรือไลน์ไอดี painatrada หรือโทรแจ้งที่เบอร์ 094-049-9929/094-478-1316</font></li>
+				<font  size="3" color ="#FF0000"><b><u>***หลังจากลูกค้าสั่งซื้อ แจ้งโอนแล้ว ลูกค้าควรหมั่นติดตามสถานะสินค้ากับทางร้าน หากภายในเวลา 18 วันยังไม่มีการแจ้งเลขพัสดุ ลูกค้ารีบติดต่อสอบถามทางไลน์ หรืออีเมล์ ว่าสถานะสินค้าของท่านถึงขั้นตอนไหน ขอบคุณค่ะ***</u></b></font>
+			</ul>
+
+	</div>
+</body>
+</html>
